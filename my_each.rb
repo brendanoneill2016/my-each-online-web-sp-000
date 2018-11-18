@@ -1,17 +1,20 @@
-collection = [1, 2, 3, 4]
 
-def my_each(collection)
+def my_each(array)
   
   counter = 0 
   
-  while counter < collection.length 
-  yield collection(counter)
+  while counter < array.length 
+  yield array(counter)
   counter = counter + 1 
   
 
 end
 end
 
-my_each(words) do |word|
+
+collection = [1, 2, 3, 4]
+
+
+my_each(collection) do |word|
   puts word
 end
