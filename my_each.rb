@@ -4,8 +4,8 @@ def my_each(collection)
   
   counter = 0 
   
-  while counter < array.length 
-  yield array(counter)
+  while counter < collection.length 
+  yield collection(counter)
   counter = counter + 1 
   
 
