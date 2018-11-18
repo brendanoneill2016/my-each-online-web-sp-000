@@ -1,4 +1,6 @@
-def my_each(array)
+collection = [1, 2, 3, 4]
+
+def my_each(collection)
   
   counter = 0 
   
@@ -11,7 +13,6 @@ end
 end
 
 
-array = [1, 2, 3, 4]
-my_each(array) do |i|
+my_each(collection) do |i|
   puts i 
 end
