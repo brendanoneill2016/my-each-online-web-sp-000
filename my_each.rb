@@ -8,6 +8,7 @@ def my_each(array)
   
 
 end
+end
 
 
 collection = [1, 2, 3, 4]
